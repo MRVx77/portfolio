@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className=" min-h-screen flex flex-col md:flex-row justify-between items-center text-white py-20 px-11 sm:px-20 md:px-20 lg:px-32 xl:px-64 gap-12 lg:mt-10"
+      className="overflow-x-hidden min-h-screen flex flex-col md:flex-row justify-center items-center text-white py-20 px-5 sm:px-10 md:px-16 lg:px-24 xl:px-32 gap-14 md:gap-20 lg:gap-28 xl:gap-60 lg:mt-10"
     >
       <img
         data-aos="zoom-in"
@@ -24,7 +24,7 @@ const Hero = () => {
         className="max-w-xl md:text-left"
       >
         <p className="text-md sm:text-lg mb-2">Hello, I am</p>
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4">Vansh</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-2">Vansh</h1>
         <h2 className="text-xl sm:text-2xl font-semibold mb-6">
           Full-Stack Web Developer
         </h2>
@@ -37,28 +37,28 @@ const Hero = () => {
           target="_blank"
           href="/Vansh_resume.pdf"
           download="Vansh_resume.pdf"
-          className="bg-gray-800 border-2 border-blue-500 px-5 sm:px-7 py-3 sm:py-4 mt-12 rounded-2xl text-base sm:text-lg cursor-pointer hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_3px_rgba(0,212,255,0.7)] hover:shadow-[0_0_10px_5px_rgba(0,212,255,1)] lg:mt-10"
+          className="bg-gray-800 border-2 border-blue-500 whitespace-nowrap px-5 sm:px-7 py-3 sm:py-4 mt-12 rounded-2xl text-base sm:text-lg cursor-pointer hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_3px_rgba(0,212,255,0.7)] hover:shadow-[0_0_10px_5px_rgba(0,212,255,1)] lg:mt-10"
         >
           Download Resume/CV
         </a>
 
-        <div className="flex gap-8 text-white text-4xl mt-7 px-3 lg:mt-10">
+        <div className="flex gap-8 text-white text-4xl mt-12 px-3 lg:mt-10">
           <a
-            className="hover:scale-150 transition-transform duration-300"
+            className="hover:scale-125 transition-transform duration-300"
             target="_blank"
             href="https://www.linkedin.com/in/vansh-dakhode-29a27635a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           >
             <FaLinkedin data-aos="zoom-in" data-aos-delay="600" />
           </a>
           <a
-            className="hover:scale-150 transition-transform duration-300"
+            className="hover:scale-125 transition-transform duration-300"
             target="_blank"
             href="https://github.com/MRVx77"
           >
             <FaGithub data-aos="zoom-in" data-aos-delay="600" />
           </a>
           <a
-            className="hover:scale-150 transition-transform duration-300"
+            className="hover:scale-125 transition-transform duration-300"
             target="_blank"
             href="https://wa.me/917620339526"
           >

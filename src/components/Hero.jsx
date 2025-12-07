@@ -35,8 +35,8 @@ const Hero = () => {
 
         <a
           target="_blank"
-          href="/Vansh_resume.pdf"
-          download="Vansh_resume.pdf"
+          href="https://drive.google.com/file/d/1NowVh8yt_Zx38i3OQWr1-t6HEPu9eVHv/view?usp=sharing"
+          rel="noreferrer noopener"
           className="bg-gray-800 border-2 border-blue-500 whitespace-nowrap px-5 sm:px-7 py-3 sm:py-4 mt-12 rounded-2xl text-base sm:text-lg cursor-pointer hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_3px_rgba(0,212,255,0.7)] hover:shadow-[0_0_10px_5px_rgba(0,212,255,1)] lg:mt-10"
         >
           Download Resume/CV

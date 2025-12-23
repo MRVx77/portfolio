@@ -21,12 +21,13 @@ const projects = [
     live: "https://web-series-anime-tracker.onrender.com",
   },
   {
-    title: "Weather Finder",
+    title: "AI Career Skill Recommendation Platform",
     description:
-      "A simple weather finder that help you to tracker the weather of your city by entering name",
+      "Solved career planning challenges by providing personalized career paths and skill roadmaps based on user skills and interests.",
     image: project3,
-    github: "https://github.com/MRVx77/WeatherFinder.git",
-    live: "https://weatherfinder-o5ip.onrender.com",
+    github:
+      "https://github.com/MRVx77/ai-career-skill-recommendation-platform.git",
+    live: "https://ai-career-skill-recommendation-platform-5mkhdjtvy.vercel.app/dashboard",
   },
 ];
 
